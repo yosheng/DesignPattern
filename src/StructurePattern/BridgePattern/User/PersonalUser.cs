@@ -1,4 +1,6 @@
-﻿namespace StructurePattern.AdapterPattern.Scenario2.User;
+﻿using StructurePattern.BridgePattern.Sender;
+
+namespace StructurePattern.BridgePattern.User;
 
 public class PersonalUser : User
 {

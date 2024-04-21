@@ -1,4 +1,4 @@
-﻿namespace StructurePattern.AdapterPattern.Scenario2;
+﻿namespace StructurePattern.BridgePattern.Sender;
 
 public interface ISender
 {

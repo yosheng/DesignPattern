@@ -1,8 +1,10 @@
-﻿namespace StructurePattern.AdapterPattern.Scenario2.User;
+﻿using StructurePattern.BridgePattern.Sender;
+
+namespace StructurePattern.BridgePattern.User;
 
 public abstract class User
 {
-    protected ISender Sender;
+    protected readonly ISender Sender;
 
     protected User(ISender sender)
     {
